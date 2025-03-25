@@ -2,6 +2,9 @@ import streamlit as st
 import cv2
 import numpy as np
 import pytesseract
+
+# Set the Tesseract path for Streamlit Cloud
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 from PIL import Image
 
 st.set_page_config(page_title="OCR App", page_icon="📜")
