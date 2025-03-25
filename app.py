@@ -7,7 +7,7 @@ from PIL import Image
 st.set_page_config(page_title="OCR App", page_icon="📜")
 
 # Title
-st.title("📝 Garbage Image to Text Extractor")
+st.title("📝 Image to Text Extractor")
 
 # Upload or capture image
 img_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
@@ -51,4 +51,4 @@ if img_file or capture:
 
 # Footer credit
 st.markdown("---")
-st.markdown("**Developed by Rutuj Dhodapkar | 2025**")a
+st.markdown("**Developed by Rutuj Dhodapkar | 2025**")
